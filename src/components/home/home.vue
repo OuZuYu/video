@@ -6,8 +6,7 @@
 				<ul>
 					<li>
 						<router-link to="/videos">视频</router-link>
-					</li>
-					<li>
+					</li><li>
 						<router-link to="/images">图片</router-link>
 					</li>
 				</ul>
@@ -65,10 +64,10 @@ export default {
 	margin-top: 10px;
 	width: 100%;
 	ul {
-		display: flex;
 		width: 100%;
 		li {
-			flex: 1;
+			display: inline-block;
+			width: 50%;
 			height: 40px;
 			line-height: 40px;
 			text-align: center;

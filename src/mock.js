@@ -69,6 +69,15 @@ function img () {
 			},
 			{
 				imgUrl: 'http://p412fe7la.bkt.clouddn.com/20170505094502_tRmHC.thumb.700_0.jpeg'
+			},
+			{
+				imgUrl: 'http://p412fe7la.bkt.clouddn.com/20170505094502_tRmHC.thumb.700_0.jpeg'
+			},
+			{
+				imgUrl: 'http://p412fe7la.bkt.clouddn.com/20170505094502_tRmHC.thumb.700_0.jpeg'
+			},
+			{
+				imgUrl: 'http://p412fe7la.bkt.clouddn.com/20170505094502_tRmHC.thumb.700_0.jpeg'
 			}
 		]
 	}

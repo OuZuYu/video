@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+body, html {
+	background: #f1f1f1;
+}
 </style>

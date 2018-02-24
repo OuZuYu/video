@@ -5,7 +5,7 @@
 				<span class="back" @click="back"><</span>
 				<h1 class="title">{{videoData.name}}</h1>
 			</div>
-			<video :src="videoData.videoUrl" controls width="100%" ref="videoPlayer" :poster="videoData.coverUrl"></video>
+			<video class="video" :src="videoData.videoUrl" controls width="100%" ref="videoPlayer" :poster="videoData.coverUrl"></video>
 			<div class="desc">
 				{{videoData.desc}}
 			</div>
@@ -82,6 +82,9 @@
 		height: 100px;
 		overflow-y: auto; 
 		background: #F1F1F1;
+	}
+	.video {
+		margin-top: 56px;
 	}
 }
 </style>
